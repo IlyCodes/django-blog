@@ -1,0 +1,23 @@
+# Ignore virtual environment
+env/
+venv/
+myenv/
+
+TuneX/
+
+# Ignore pycache files
+__pycache__/
+
+# Ignore .env file if you're using environment variables
+.env
+
+# Ignore SQLite database files if you're using SQLite
+*.sqlite3
+
+# Ignore Django migrations
+*/migrations/*
+
+# Ignore IDE or editor files
+.vscode/
+.idea/
+*.swp
